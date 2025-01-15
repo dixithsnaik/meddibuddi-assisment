@@ -1,0 +1,147 @@
+* {
+  font-family: 'Lexend Deca', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headerContainer {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  gap: 16px;
+}
+
+.actionContainer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.walletIcon,
+.cartIcon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.walletIcon {
+  width: 46px; /* Larger width for wallet icon */
+}
+
+.iconWithBadge {
+  position: relative;
+  display: inline-block;
+}
+
+.badge {
+  position: absolute;
+  top: -4px;
+  left: 20px;
+  background-color: #1976d2;
+  color: white;
+  border-radius: 12px;
+  border: 2px solid white;
+  padding: 2px 4px;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Adjust badge for cartIcon */
+.iconWithBadge .cartIcon + .badge {
+  left: 16px; /* Reduce the left position for cart badge */
+}
+.locationContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--Text-Grey-900, #2e3742);
+}
+
+.locationIcon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.locationContent {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+}
+
+.locationTitle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.locationArrow {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.locationAddress {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+}
+
+
+
+/* searchbar */
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 4px 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 16px;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #4a4a4a;
+  background-color: transparent;
+  padding: 8px 12px;
+}
+
+.search-input::placeholder {
+  color: #a0a0a0;
+}
+
+.search-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.search-icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
