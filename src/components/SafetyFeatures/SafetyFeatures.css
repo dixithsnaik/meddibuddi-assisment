@@ -1,3 +1,10 @@
+.safety-heading{
+  font-size: 16px;
+  color: #050A4E;
+  font-weight: 600;
+  padding-left: 16px;
+}
+
 .safety-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -18,8 +25,7 @@
 }
 
 .safety-image {
-  width: 48px; /* Adjust size as needed */
-  height: 48px;
+  width: 24px;
   margin-bottom: 12px;
 }
 

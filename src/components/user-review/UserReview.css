@@ -1,6 +1,6 @@
 /* user-review */
 .Reviews-Container{
-    margin: 10px;
+    margin-bottom: 14px;
   }
   
   .Reviews-slider{
@@ -10,20 +10,19 @@
   }
   
   .Reviews-Title{
-    margin-left: 10px;
+    margin-left:16px ;
     font-size:16px;
+    font-weight: 600;
+    color: #050A4E;
   }
 
 
   
   .Reviews-Card{
-    
-    width: 300px;
     margin: 10px;
     border-radius: 20px;
     padding: 16px;
     color: #FBFCFF;
-    
   }
   
   .Reviews-Card-Top{
@@ -32,6 +31,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
+    
   }
   
   .Reviews-Card-Bottom{

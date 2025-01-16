@@ -70,7 +70,7 @@ function TestCard(testData) {
               <div className="timeWrapper">
                 <img
                   loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/39531d235011acf789a4c4f6e0d8a84102eb3071194e21598566daa1dd89bf64?placeholderIfAbsent=true&apiKey=e40ab9010b324a23beb46e8f03978627"
+                  src="assets/icons/time.svg"
                   className="icon"
                   alt="Clock icon"
                 />
@@ -81,11 +81,11 @@ function TestCard(testData) {
               </div>
               <div className="locationContainer">
                 <div className="locationWrapper">
-                  {testData.locations.map((location, index) => (
+                  {testData.locations.map((location) => (
                     <div key={location} className="locationItem">
                       <img
                         loading="lazy"
-                        src={`http://b.io/ext_${index + 2}-`}
+                        src={`assets/icons/${location.toLowerCase()}.svg`}
                         className="locationIcon"
                         alt={`${location} icon`}
                       />
@@ -98,20 +98,8 @@ function TestCard(testData) {
           </div>
         </div>
         <div className="priceContainer">
-          {testData.isCashless && (
-            <div className="cashlessTag">
-              <div>
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/324404b2944a5de8b98aceca7815541f10cfca7644ba4c2125213159e061db4f?placeholderIfAbsent=true&apiKey=e40ab9010b324a23beb46e8f03978627"
-                  className="icon"
-                  alt="Cashless icon"
-                />
-                <div>Cashless</div>
-              </div>
-            </div>
-          )}
           <div className="priceWrapper">
+            <div className="priceDetails"></div>
             <div className="priceDetails">
               <div className="priceRow">
                 <div className="originalPrice">
@@ -136,6 +124,19 @@ function TestCard(testData) {
           </div>
         </div>
       </div>
+      {testData.isCashless && (
+            <div className="cashlessTag">
+              <div>
+                <img
+                  loading="lazy"
+                  src="assets/icons/chcek-mark.svg"
+                  className="icon"
+                  alt="Cashless icon"
+                />
+                <div>Cashless</div>
+              </div>
+            </div>
+          )}
     </div>
   );
 }

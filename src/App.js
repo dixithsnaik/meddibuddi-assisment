@@ -23,7 +23,7 @@ function App() {
       <FeaturedHealthCheckUp/>
       <ActiveBookings/>
       <LabBookings/>
-      <UserReview/>
+      <UserReview/> {/*css not applied*/}
       <LifeStyleGrid/>
       <HowItWorks/>
       <SafetyFeatures/>

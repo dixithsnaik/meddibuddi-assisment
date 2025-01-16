@@ -67,12 +67,13 @@
 .testCard {
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.04);
   display: flex;
-  max-width: 328px;
   flex-direction: column;
+  margin: 12PX 16px;
+
 }
 
 .cardWrapper {
-  padding: 12px;
+  justify-content: space-between;
   border-radius: 12px;
   border: 1px solid var(--Grayscale-Gray-5, #e0e0e0);
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.02),
@@ -82,20 +83,20 @@
   background-color: #fff;
   display: flex;
   width: 100%;
+  padding: 12px;
 }
 
 .contentContainer {
   display: flex;
-  min-height: 104px;
-  padding-top: 12px;
   align-items: start;
-  gap: 8px;
+  
 }
 
 .testInfo {
   display: flex;
-  width: 201px;
+ 
   flex-direction: column;
+  
 }
 
 .testTitle {
@@ -173,22 +174,33 @@
 }
 
 .cashlessTag {
+  display: flex;
+  position: absolute;
   justify-content: center;
+  align-items: center; 
   border-radius: 0px 12px;
   background: var(--Success-Green-600, #459f49);
   align-self: end;
-  display: flex;
-  width: 78px;
-  flex-direction: column;
   overflow: hidden;
   font-size: 10px;
   color: var(--Grayscale-White, #fff);
   font-weight: 600;
-  white-space: nowrap;
   padding: 2px 11px;
 }
 
+.cashlessTag div {
+  display: flex;
+  align-items: center; 
+  gap: 5px;
+}
+
+.icon {
+  width: 12px;
+  height: 12px; 
+}
+
 .priceWrapper {
+  padding-top: 6px;
   display: flex;
   margin-top: 8px;
   width: 100%;
@@ -207,9 +219,13 @@
 .priceRow {
   z-index: 10;
   display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  align-items: center; /* Ensure vertical alignment */
+  justify-content: space-between; /* Distribute space evenly */
   width: 100%;
-  gap: 10px;
+  gap: 10px; /* Space between originalPrice and discount */
   font-weight: 400;
+  white-space: nowrap; /* Prevent text wrapping */
 }
 
 .originalPrice {
@@ -217,7 +233,7 @@
   font-size: 10px;
   line-height: 18px;
   text-decoration-line: line-through;
-  flex-grow: 1;
+  flex-grow: 1; /* Allow this to take up available space */
 }
 
 .discount {
@@ -227,6 +243,7 @@
   font-size: 12px;
   color: var(--Success-Green-600, #459f49);
   padding: 2px 4px;
+  flex-shrink: 0; /* Prevent shrinking */
 }
 
 .finalPrice {
@@ -254,7 +271,7 @@
 }
 
 .addButton {
-  align-self: stretch;
+  align-self: flex-end;
   border-radius: 8px;
   border: 1px solid var(--Blue-Primary, #1778f2);
   background: var(--Grayscale-White, #fff);
@@ -268,6 +285,7 @@
   text-align: center;
   padding: 3px 16px;
   cursor: pointer;
+  width: 56px;
 }
 
 .visually-hidden {
