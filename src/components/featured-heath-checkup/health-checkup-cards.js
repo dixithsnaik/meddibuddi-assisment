@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './FeaturedHealthCheckup.css';
+import CheckUpCard from './ChcekUpCard';
 
 export default function HealthCheckupCard() {
   const array = []; 
@@ -8,10 +9,10 @@ export default function HealthCheckupCard() {
 
       <div className='fhc-card-slider'>
         {array.map((item, index) => (
-          <Card key={index} item={item}/>
+          <CheckUpCard key={index} item={item}/>
         ))}
       </div>
-
+      
     </div>
   );
 }

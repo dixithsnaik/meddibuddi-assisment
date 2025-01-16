@@ -1,0 +1,30 @@
+.safety-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+  padding: 16px;
+}
+
+.safety-card {
+  background: #F1F7FF;
+  border-radius: 8px;
+  padding:10px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: strat;
+  text-align: start;
+  margin:5px;
+  
+}
+
+.safety-image {
+  width: 48px; /* Adjust size as needed */
+  height: 48px;
+  margin-bottom: 12px;
+}
+
+.safety-text {
+  font-size: 12px;
+  color: #050A4E;
+  font-weight: 300;
+}

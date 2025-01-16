@@ -3,7 +3,6 @@
 .featured-health-checkup {
   padding:24px 0px;
   background-color: #E8F2FE;
-  
 }
 
 /* Header container */
@@ -12,6 +11,7 @@
   justify-content: space-between;
   align-items: center;
   font-weight: 600;
+  margin: 0px 16px;
   margin-bottom: 16px;
 }
 
@@ -127,6 +127,21 @@
   margin: 0 4px;
 }
 
+.featured-title{
+  font-size: 16px;
+  font-weight:600;
+  color: #050A4E;
+}
+
+.featured-view{
+  font-size: 14px;
+  font-weight:600;
+  color: #1778F2;
+  cursor: pointer;
+  border:none;
+   background: transparent;
+}
+
 .featured-card .card-footer .quantity input {
 
   text-align: center;
@@ -151,6 +166,7 @@
 .fhc-slider {
   display: flex;
   width: max-content;
+  margin-left: 16px;
 }
 
 .fhc-slider-item{
@@ -161,7 +177,23 @@
   border-radius: 8px;
   padding: 10px;
  margin-right: 8px;
- 
+ font-size: 12px;
+ font-weight: 600;
+ color: #050A4E;
+}
+
+.fhc-slider-selected-item{
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  margin-right: 8px;
+  border: 1.5px solid #1778F2;
+  color:#1778F2;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 

@@ -1,0 +1,229 @@
+
+/* Booking Header */
+.booking-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  color:  #050A4E;
+  font-size: 16px;
+  margin: 16px;
+}
+
+.view-all-button {
+  font-size: 14px;
+  font-weight:600;
+  color: #1778F2;
+  cursor: pointer;
+  border:none;
+  background: transparent;
+}
+
+.booking-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Booking Details */
+
+.booking-cards-container {
+  display: flex;
+  overflow-x: auto;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+  padding-left: 16px;
+  margin-bottom: 10px;
+}
+
+.booking-cards-container::-webkit-scrollbar {
+  display: none;  
+}
+
+/* Booking Card */
+.booking-card {
+  margin-right: 16px;
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  border: 1px solid #d4d4d8;
+  border-radius: 12px;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.booking-detail {
+  display:block;
+  justify-content: space-between;
+  align-items: center;
+  margin-right:140px;
+}
+
+.booking-user {
+  display: flex;
+  align-items: center;
+  width:max-content;
+}
+
+.booking-status-row{
+  display: flex;
+  align-items: center;
+  width:max-content;
+  margin-top: 4px;
+}
+
+.check-mark{
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.booking-status{
+  display: flex;
+  align-items: center;
+  width:max-content;
+  font-size: 14px;
+  font-weight: 600;
+  color: #050A4E;
+}
+
+.user-avatar {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.user-name {
+  font-size: 12px;
+  font-weight: 400;
+  color:  #050A4E;
+}
+
+.update-icon{
+  size:30px;
+}
+
+.status-update-button {
+  height: 30px;
+  width: 30px;
+  background: #ffffff;
+  color: #ffffff;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 50%;
+}
+
+
+
+
+/* Booking Appointment */
+.booking-appointment {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background: #f3f4f6;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+.booking-devider{
+  height: 26px;
+  color: #D6E8FF;
+}
+
+.appointment-date {
+  font-size: 12px;
+  font-weight: 500;
+  color: #050A4E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.appointment-day{
+  font-size: 10px;
+  font-weight: lighter;
+  color: #050A4E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appointment-time {
+  font-size: 12px;
+  font-weight: 500;
+  color: #050A4E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appointment-type {
+  font-size: 10px;
+  font-weight: lighter;
+  color: #050A4E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appointment-tests {
+  font-size: 10px;
+  font-weight: lighter;
+  color: #050A4E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4px;
+}
+
+.test-count{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appointment-tests-count{
+  font-size: 12px;
+  font-weight: 500;
+  color: #050A4E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Booking Indicato*/
+
+.indicators{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-indicator{
+  height: 6px;
+  width: 6px;
+  background-color: #F2F2F2;
+  border-radius: 50%;
+  margin: 2px;
+}
+
+.item-indicator-selected{
+  height: 6px;
+  width: 6px;
+  background-color: #1778F2;
+  border-radius: 50%;
+  margin: 2px;
+}
+
+

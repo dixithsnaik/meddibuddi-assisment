@@ -7,8 +7,8 @@ export function LocationDisplay() {
       <img
         loading="lazy"
         src="/assets/icons/arrow-left.svg"
-        className="locationIcon"
-        alt="Location marker icon"
+        className="back-button"
+        alt="back-button icon"
       />
       <div className="locationContent">
         <div className="locationTitle">

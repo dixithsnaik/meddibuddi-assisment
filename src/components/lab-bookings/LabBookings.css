@@ -1,0 +1,295 @@
+.lab-bookings {
+    padding:24px 0px;
+    background-color: #ffffff;
+}
+
+.blt-slider-item{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+   margin-right: 8px;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+   font-size: 12px;
+   font-weight: 600;
+   color: #050A4E;
+}
+.fhc-slider{
+  margin-bottom:14px ;
+}
+
+.blt-slider-selected-item{
+  color: #1778F2;
+  border: 1.5px solid #1778F2;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+ margin-right: 8px; 
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+ font-size: 12px;
+ font-weight: 600;
+ 
+}
+
+
+
+/*header*/
+.lab-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px;
+  margin-bottom: 28px;
+}
+
+.lab-title { 
+  font-weight: 600;
+  color:  #050A4E;
+  font-size: 16px;
+}
+
+.lab-view-more{
+  font-size: 14px;
+  font-weight:600;
+  color: #1778F2;
+  cursor: pointer;
+  border:none;
+  background: transparent;
+}
+
+
+/* cbc card */
+.testCard {
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.04);
+  display: flex;
+  max-width: 328px;
+  flex-direction: column;
+}
+
+.cardWrapper {
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid var(--Grayscale-Gray-5, #e0e0e0);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.02),
+    0px 4px 18px 0px rgba(0, 0, 0, 0.02),
+    0px 6px 4px 0px rgba(0, 0, 0, 0.02),
+    0px 8px 44px 0px rgba(0, 0, 0, 0.03);
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+}
+
+.contentContainer {
+  display: flex;
+  min-height: 104px;
+  padding-top: 12px;
+  align-items: start;
+  gap: 8px;
+}
+
+.testInfo {
+  display: flex;
+  width: 201px;
+  flex-direction: column;
+}
+
+.testTitle {
+  color: var(--Blue-Text, #050a4e);
+  font: 500 12px Lexend Deca, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.reportTimeContainer {
+  align-self: start;
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+  font-size: 10px;
+}
+
+.timeWrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-family: Nunito, sans-serif;
+  color: var(--Blue-Text, #050a4e);
+  font-weight: 600;
+}
+
+.icon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 12px;
+  align-self: stretch;
+  margin: auto 0;
+}
+
+.locationContainer {
+  align-self: start;
+  display: flex;
+  margin-top: 10px;
+  align-items: start;
+  gap: 6px;
+  font-family: Lexend Deca, sans-serif;
+  color: var(--Grayscale-Gray-2, #4f4f4f);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.locationWrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.locationItem {
+  border-radius: 7px;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: auto 0;
+}
+
+.locationIcon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 9px;
+  align-self: stretch;
+  margin: auto 0;
+}
+
+.priceContainer {
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  font-family: Lexend Deca, sans-serif;
+}
+
+.cashlessTag {
+  justify-content: center;
+  border-radius: 0px 12px;
+  background: var(--Success-Green-600, #459f49);
+  align-self: end;
+  display: flex;
+  width: 78px;
+  flex-direction: column;
+  overflow: hidden;
+  font-size: 10px;
+  color: var(--Grayscale-White, #fff);
+  font-weight: 600;
+  white-space: nowrap;
+  padding: 2px 11px;
+}
+
+.priceWrapper {
+  display: flex;
+  margin-top: 8px;
+  width: 100%;
+  flex-direction: column;
+  align-items: end;
+}
+
+.priceDetails {
+  border-radius: 0;
+  display: flex;
+  width: 100%;
+  max-width: 105px;
+  flex-direction: column;
+}
+
+.priceRow {
+  z-index: 10;
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  font-weight: 400;
+}
+
+.originalPrice {
+  color: var(--Grayscale-Gray-3, #828282);
+  font-size: 10px;
+  line-height: 18px;
+  text-decoration-line: line-through;
+  flex-grow: 1;
+}
+
+.discount {
+  align-self: stretch;
+  border-radius: 4px;
+  background: var(--Success-Green-50, #edf7ee);
+  font-size: 12px;
+  color: var(--Success-Green-600, #459f49);
+  padding: 2px 4px;
+}
+
+.finalPrice {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.price {
+  color: var(--Blue-Text, #050a4e);
+  text-align: right;
+  font-size: 12px;
+  font-weight: 600;
+  align-self: stretch;
+  margin: auto 0;
+}
+
+.priceLabel {
+  color: var(--Grayscale-Gray-3, #828282);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 18px;
+  align-self: stretch;
+  margin: auto 0;
+}
+
+.addButton {
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--Blue-Primary, #1778f2);
+  background: var(--Grayscale-White, #fff);
+  margin-top: 8px;
+  min-height: 24px;
+  gap: 4px;
+  font-size: 12px;
+  color: var(--Blue-Primary, #1778f2);
+  font-weight: 600;
+  white-space: nowrap;
+  text-align: center;
+  padding: 3px 16px;
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.emphasisText {
+  font-family: Lexend Deca, sans-serif;
+  font-weight: 500;
+  line-height: 13px;
+  color: rgba(5,10,78,1);
+}
+
+.normalText {
+  font-family: Lexend Deca, sans-serif;
+  font-weight: 500;
+}

@@ -1,0 +1,89 @@
+/* user-review */
+.Reviews-Container{
+    margin: 10px;
+  }
+  
+  .Reviews-slider{
+    display:flex;
+    overflow-x: auto;
+   
+  }
+  
+  .Reviews-Title{
+    margin-left: 10px;
+    font-size:16px;
+  }
+
+
+  
+  .Reviews-Card{
+    
+    width: 300px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 16px;
+    color: #FBFCFF;
+    
+  }
+  
+  .Reviews-Card-Top{
+    display: flex;
+    width: max-content;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .Reviews-Card-Bottom{
+    display: flex;
+    align-items: center;
+  }
+  
+  .Reviews-Card-Top-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+  }
+  
+  .Reviews-Card-Top-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Reviews-Card-Stars{
+    margin-right: 9px;
+  }
+  
+  .Reviews-Card-Date{
+    font-weight: lighter;
+    color: #969696;
+    font-size: 10px;
+  }
+
+  .Reviews-Card-Location{
+    font-weight: lighter;
+    color: #969696;
+    font-size: 10px;
+    margin-left: 2px;
+  }
+  .star{
+    color: #FFD700;
+    margin-left: 2px;;
+  }
+
+
+
+  .Reviews-Card-Name{
+    font-size: 12px;
+    color: #050A4E;
+    margin: 6px;
+  }
+
+  .Reviews-Card-Rev{
+    color: #47566A;
+    margin-bottom: 32px;
+    max-lines: 3;
+    text-overflow: ellipsis;
+  }
+  

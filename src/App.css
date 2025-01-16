@@ -201,9 +201,10 @@
   align-items: start;
   justify-content: space-between;
   overflow: hidden;
- margin: 0px 20px;
- margin-bottom: 24px;
+  margin: 0px 20px;
+  margin-bottom: 24px;
   font: 10px var(--global-typography-type-face-font-family-body, "Lexend Deca");
+  position: relative;
 }
 
 .contentWrapper {
@@ -255,16 +256,28 @@
   margin: auto 0;
 }
 
-.image-container {
-  width: 100px; /* Adjust the width of the container */
-  height: 100px; /* Adjust the height of the container */
-  background-size: cover;
-  background-position: center;
+.image-background {
+  width: 100px;
+  height: 100px;
+  background-position: bottom;
   background-repeat: no-repeat;
-  border-radius: 30px; /* Border radius to round the corners */
-  transform: rotate(90deg); /* Rotates the container 90 degrees */
-  clip-path: polygon(0 0, 100% 0, 100% 66%, 0 100%); /* Clips 1/3rd of the top-left */
-  background-color: var(--Colors-Pink-700, #922B73); /* Fallback background color */
+  border-radius: 30px;
+  transform: rotate(45deg);
+  background-color: var(--Colors-Pink-700, #922B73);
+  opacity: 20%;
+  position: absolute; /* Allows it to stack */
+  right: -15px;
+  bottom: -28px;
+}
+
+.banner-image {
+  width: 300px;
+  object-fit: contain;
+  border-radius: 30px;
+  position: absolute; /* Allows it to stack */
+  right: -65px; /* Align with background */
+  bottom: -45px; /* Align with background */
+  transform: scaleX(-1); /* Flips the image horizontally */
 }
 
 
