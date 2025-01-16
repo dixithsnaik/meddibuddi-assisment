@@ -1,34 +1,25 @@
 import React from "react";
 
+import  './FeaturedHealthCheckup.css';
+
 function FeaturedHealthCheckUp() {
-return (
+    var array = ['Popular', 'Central Visit', 'Full Body Check Up', 'Diabetes','Women health'];
+  return (
     <div className="featured-health-checkup">
-        <div className="featured-header">
-            <span>Featured Health Check-ups</span>
-            <span>View All</span>
-        </div>
-        <div className="featured-card">
-            <div className="card-header">
-                <span>Medibuddy Fit health check-up</span>
-                <span className="sponsored">Sponsored</span>
-            </div>
-            <div className="card-details">
-                <span>90 Tests</span>
-                <div className="tests">
-                    • Cholesterol - Total <br /> • Vitamin D... + 87 more
-                </div>
-            </div>
-            <div className="card-footer">
-                <span>₹0</span>
-                <div className="quantity">
-                    <button>-</button>
-                    <input type="text" value="1" readOnly />
-                    <button>+</button>
-                </div>
-            </div>
-        </div>
+      <div className="featured-header">
+        <span>Featured Health Check-ups</span>
+        <span>View All</span>
+      </div>
+      <div className="fhc-slider-parent">
+      <div className="fhc-slider">
+        {array.map((item, index) => (
+          <div className='fhc-slider-item' key={index}>{item}</div>
+        ))}
+      </div>
+      </div>
+      
     </div>
-);
+  );
 }
 
 export default FeaturedHealthCheckUp;
