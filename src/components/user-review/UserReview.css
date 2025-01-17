@@ -1,98 +1,95 @@
 /* user-review */
-.Reviews-Container{
-    margin-bottom: 14px;
-  }
-  
-  .Reviews-slider{
-    display:flex;
-    overflow-x:scroll;
-    overflow-y: hidden;
-  }
-  
-  .Reviews-Title{
-    margin-left:16px ;
-    font-size:16px;
-    font-weight: 600;
-    color: #050A4E;
-  }
+.Reviews-Container {
+  margin-bottom: 14px;
+}
 
-  .Reviews-Card{
-    height: 150px;
-   
-    margin: 10px;
-    border-radius: 20px;
-    padding: 16px;
-    padding-bottom: 0px;
-    background-color: #FBFCFF;
-  }
+.Reviews-slider {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
 
-  .Reviews-Card-h1{
-    font-size: 12px;
-    font-weight: 300;
-    padding: 0px;
+.Reviews-Title {
+  margin-left: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #050a4e;
+}
+
+.Reviews-Card {
+  height: 150px;
+
+  margin: 10px;
+  border-radius: 20px;
+  padding: 16px;
+  padding-bottom: 0px;
+  background-color: #fbfcff;
+}
+
+.Reviews-Card-h1 {
+  font-size: 12px;
+  font-weight: 300;
+  padding: 0px;
   height: 45px;
   text-overflow: ellipsis;
-  }
-  
-  .Reviews-Card-Top{
-    display: flex;
-    width: max-content;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-    
-  }
-  
-  .Reviews-Card-Bottom{
-    display: flex;
-    align-items: center;
-  }
-  
-  .Reviews-Card-Top-1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   width: 200px;
-  }
-  
-  .Reviews-Card-Top-2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .Reviews-Card-Stars{
-    margin-right: 9px;
-  }
-  
-  .Reviews-Card-Date{
-    font-weight: lighter;
-    color: #969696;
-    font-size: 10px;
-  }
+  overflow: hidden;
+}
 
-  .Reviews-Card-Location{
-    font-weight: lighter;
-    color: #969696;
-    font-size: 10px;
-    margin-left: 2px;
-  }
-  .star{
-    color: #FFD700;
-    margin-left: 2px;;
-  }
+.Reviews-Card-Top {
+  display: flex;
+  width: max-content;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
 
+.Reviews-Card-Bottom {
+  display: flex;
+  align-items: center;
+}
 
+.Reviews-Card-Top-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
 
-  .Reviews-Card-Name{
-    font-size: 12px;
-    color: #050A4E;
-    margin: 6px;
-  }
+.Reviews-Card-Top-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Reviews-Card-Stars {
+  margin-right: 9px;
+}
 
-  .Reviews-Card-Rev{
-    color: #47566A;
-    margin-bottom: 32px;
-    max-lines: 3;
-    text-overflow: ellipsis;
-  }
-  
+.Reviews-Card-Date {
+  font-weight: lighter;
+  color: #969696;
+  font-size: 10px;
+}
+
+.Reviews-Card-Location {
+  font-weight: lighter;
+  color: #969696;
+  font-size: 10px;
+  margin-left: 2px;
+}
+.star {
+  color: #ffd700;
+  margin-left: 2px;
+}
+
+.Reviews-Card-Name {
+  font-size: 12px;
+  color: #050a4e;
+  margin: 6px;
+}
+
+.Reviews-Card-Rev {
+  color: #47566a;
+  margin-bottom: 32px;
+  max-lines: 3;
+  text-overflow: ellipsis;
+}

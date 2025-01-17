@@ -50,6 +50,14 @@
   line-height: 20px;
 }
 
+.FAQ-answer-point{
+  padding-bottom: 10px;
+}
+
+.FAQ-answer-point-ul{
+  padding-left: 16px;
+}
+
 .break{
  margin-left: 16px;
  margin-right: 16px;

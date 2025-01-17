@@ -2,8 +2,8 @@ import React from 'react';
 import { LifeStyleCard } from './LifeStyleCard';
 import './LifeStyle.css';
 
-export const LifeStyleGrid = () => {
-    const packages = [
+export const LifeStyleGrid = ({data}) => {
+    let packages = [
         { imageUrl: '/assets/vectors/lifestyle-health/hyper-tension.svg', text: 'Hyper-Tension' },
         { imageUrl: '/assets/vectors/lifestyle-health/obesity.svg', text: 'Obesity' },
         { imageUrl: '/assets/vectors/lifestyle-health/smoking.svg', text: 'Smoking' },
@@ -14,7 +14,7 @@ export const LifeStyleGrid = () => {
 
     return (
         <div className="wrapper">
-            <h2 className="title">Lifestyle Health Check-up Packages</h2>
+            <h2 className="title">{data.title}</h2>
             <div className="content">
                 <div className="container">
                     <div className="row">
