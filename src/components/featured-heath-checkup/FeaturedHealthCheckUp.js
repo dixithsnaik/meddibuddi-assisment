@@ -1,6 +1,6 @@
 import React from "react";
 import  './FeaturedHealthCheckup.css';
-import HealthCheckupCard from "./health-checkup-cards";
+import FhcCardSlider from "./FhcCardSlider";
 
 function FeaturedHealthCheckUp() {
   var array = ['Popular', 'Central Visit', 'Full Body Check Up', 'Diabetes','Women health'];
@@ -22,7 +22,7 @@ function FeaturedHealthCheckUp() {
         ))}
       </div>
       </div>
-<HealthCheckupCard/>
+      <FhcCardSlider/>
       
     </div>
   );

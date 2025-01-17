@@ -6,6 +6,7 @@ import FreqentlyAskedQuestions from './components/frequenty-asked-questions/Freq
 import  { Header } from './components/header/Header';
 import LabBookings from './components/lab-bookings/LabBookings';
 import HowItWorks from './components/lab-working/LabWorking';
+import LabsVisited from './components/labs-visited/LabsVisited';
 import { LifeStyleGrid } from './components/life-style-health-check/LifeStyleGrid';
 import PregnancyBanner from './components/pregnancy-care-banner/PregnancyCareBanner';
 import CardGrid from './components/primary-fetures/CardGrid';
@@ -23,6 +24,7 @@ function App() {
       <FeaturedHealthCheckUp/>
       <ActiveBookings/>
       <LabBookings/>
+      <LabsVisited/>
       <UserReview/> {/*css not applied*/}
       <LifeStyleGrid/>
       <HowItWorks/>

@@ -17,6 +17,7 @@ function FreqentlyAskedQuestions() {
           {questions.map((question, index) => {
             const isOpen = state.includes(index);
             return (
+              <div>
               <div key={index} className='FAQ-question-div'>
                 <div className='FAQ-question-div-h1'>
                 <h3 className='FAQ-question'>{question.question}</h3>
@@ -34,7 +35,9 @@ function FreqentlyAskedQuestions() {
                 />
                 </div>
                 {isOpen && <p className='FAQ-answer'>{question.answer}</p>}
-                <hr></hr>
+                
+              </div>
+              <hr className='break'></hr>
               </div>
             );
           })}

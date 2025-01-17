@@ -1,0 +1,157 @@
+.Package-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  
+  .Package-main-slider {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+  }
+  
+  .package-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .package-card-h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    margin: 0;
+  }
+  
+  .package-card-time {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .package-card-time-h3 {
+    font-size: 14px;
+    color: #555555;
+    margin: 0;
+  }
+  
+  .package-icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .package-card-div-1 {
+    width:300px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  
+  .package-card-nos,
+  .package-card-includes {
+    flex: 1;
+  }
+  
+  .package-card-nos-h3,
+  .package-card-includes-h3,
+  .package-card-fasting-h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    margin: 0;
+  }
+  
+  .package-card-nos-ul,
+  .package-card-includes-ul {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 0;
+  }
+  
+  .package-card-nos-h3-bland,
+  .package-card-includes-h3-bland,
+  .package-card-fasting-h3-bland {
+    font-size: 14px;
+    color: #555555;
+  }
+  
+  .package-card-includes-li-div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .package-card-fasting,
+  .package-card-avail {
+    flex: 1;
+  }
+  
+  .package-card-avail-insidediv {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .package-card-cost {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .package-card-cost-insidediv1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .package-card-cost-h3 {
+    font-size: 14px;
+    color: #555555;
+    margin: 0;
+  }
+  
+  .package-card-cost-h3:first-child {
+    text-decoration: line-through;
+    color: #888888;
+  }
+  
+  .package-card-button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .package-card-button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .package-card-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .package-card-extra {
+    text-align: center;
+    background-color: #e9f7ef;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .package-card-extra-h3 {
+    font-size: 12px;
+    color: #28a745;
+    margin: 0;
+  }
