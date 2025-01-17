@@ -5,8 +5,8 @@
   
   .Reviews-slider{
     display:flex;
-    overflow-x: auto;
-   
+    overflow-x:scroll;
+    overflow-y: hidden;
   }
   
   .Reviews-Title{
@@ -16,13 +16,22 @@
     color: #050A4E;
   }
 
-
-  
   .Reviews-Card{
+    height: 150px;
+   
     margin: 10px;
     border-radius: 20px;
     padding: 16px;
-    color: #FBFCFF;
+    padding-bottom: 0px;
+    background-color: #FBFCFF;
+  }
+
+  .Reviews-Card-h1{
+    font-size: 12px;
+    font-weight: 300;
+    padding: 0px;
+  height: 45px;
+  text-overflow: ellipsis;
   }
   
   .Reviews-Card-Top{
@@ -43,7 +52,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 40px;
+   width: 200px;
   }
   
   .Reviews-Card-Top-2{

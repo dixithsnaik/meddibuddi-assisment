@@ -15,6 +15,9 @@ import { SearchBar } from './components/searchBar/SearchBar';
 import UserReview from './components/user-review/UserReview';
 
 function App() {
+
+
+  
   return (
     <div className="App">
       <Header/>

@@ -1,138 +1,149 @@
-
 .labs-visited {
-   
-    
 }
 
 .labs-header {
-    display: flex;
-    justify-content: space-between;
-    
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .labs-slider {
-    overflow: hidden;
-   
+  overflow: hidden;
+  padding-left: 16px;
 }
 
 .labs-cards-slider {
-    display: flex;
-    flex-direction: row;
-    overflow-x: auto;
-    
-    scroll-behavior: smooth; 
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
 }
 
 .labs-h1 {
-    font-size: 16px;
-    font-weight: bold;
-    color: #2E3742;
+  font-size: 16px;
+  font-weight: bold;
+  color: #2e3742;
 }
 
 .lab-card {
-    flex: 0 0 auto; 
-    width: 300px; 
-    border-radius: 10px;
-    background: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    
+  flex: 0 0 auto;
+  width: 300px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-right: 16px;
 }
 
 .main-img {
-    width: 100%;
-    height: 92px;
-    object-fit: cover;
-    border-radius: 10px 10px 0px 0px;
-
+  width: 100%;
+  height: 92px;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
 }
 
-.lab-card-loc{
-    display: flex;
-    
+.lab-card-loc {
+  display: flex;
 }
-.lab-card-rating{
-    display: flex;
-	background-color: #FFFAD6;
-	width: fit-content;
-	padding: 4px 8px;
-	border-radius: 10px 0px 0px 10px;
-    left: 54%;
-	position: relative;
-	top: -15px;
+.lab-card-rating {
+  display: flex;
+  background-color: #fffad6;
+  width: fit-content;
+  padding: 4px 8px;
+  border-radius: 10px 0px 0px 10px;
+  left: 54%;
+  position: relative;
+  top: -15px;
 }
-.rating{
-    padding-left: 4px;
+.rating {
+  padding-left: 4px;
 }
-.lab-card-rating img{
-	width: 12px;
-	height: 12px;
-    
-}	
+.lab-card-rating img {
+  width: 12px;
+  height: 12px;
+}
 .lab-card h4 {
-    font-size: 14px;
-    margin: 5px 0;
-    color: #333;
+  font-size: 14px;
+  margin: 5px 0;
+  color: #333;
 }
 
 .lab-card span {
-    font-size: 12px;
-    color: #555;
-    display: block;
+  font-size: 12px;
+  color: #555;
+  display: block;
 }
 
-.card-icons{
-    size: 12px;
-    padding-right: 4px;
+.card-icons {
+  size: 12px;
+  padding-right: 4px;
 }
 
 .labs-see-all {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 }
 
 .labs-see-all img {
-    margin-left: 5px;
-    width: 12px;
-    height: 12px;
+  margin-left: 5px;
+  width: 12px;
+  height: 12px;
 }
 
 /* Hide scrollbar for modern browsers */
 .labs-cards-slider::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .labs-cards-slider {
-    -ms-overflow-style: none; /* IE 10+ */
-    scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+  scrollbar-width: none; /* Firefox */
 }
-.lab-card-details {
-    padding: 10px 0px;
-    margin: 0px 10px;
-}
-.lab-trust-header{
-	display: flex;
-	justify-content: space-between;
-	color: #050A4E;
-	/* width: 200px; */
-	margin: 30px 0px 20px 0px;
 
+.lab-card-details {
+  padding: 10px 0px;
+  margin: 0px 10px;
 }
-.lab-data{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+
+.lab-trust {
+  padding: 0px 16px 32px 16px;
 }
-.lab-data-contents{
-	display: flex;
-	flex-direction: row;
-	width: 150px;
+
+.lab-trust-header {
+  display: flex;
+  justify-content: space-between;
+  color: #050a4e;
+  /* width: 200px; */
+  margin: 30px 0px 20px 0px;
 }
-.lab-header-blue{
-	color: #0066DC;
-	font-weight: bold;
+.lab-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.lab-header-darkblue{
-	color: #050A4E;
-	font-weight: bold;
+
+.lab-data-div1{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.lab-data-contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.lab-data-contents-img{
+    height: 28px;
+    margin-right:16px;
+}
+
+.lab-header-blue {
+  color: #0066dc;
+  font-weight: bold;
+}
+.lab-header-darkblue {
+  color: #050a4e;
+  font-weight: bold;
 }

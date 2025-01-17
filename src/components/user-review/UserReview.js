@@ -71,7 +71,7 @@ function UserReview() {
                   <div className='Reviews-Card-Location'>{rev.location}</div>
                   </div>
                 </div>
-                <div className='Reviews-Card-Rev'>{rev.rev}</div>
+                <div className='Reviews-Card-Rev'><h1 className='Reviews-Card-h1'>{rev.rev}</h1></div>
                 <hr></hr>
                 <div className='Reviews-Card-Bottom'>
                 <img className='Reviews-Card-Img' src='./assets/icons/avatar-2.svg' alt='name' />
